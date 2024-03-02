@@ -1,0 +1,14 @@
+# lemr-js:
+#   filter: rjsmin
+#   output: ckanext-lemr/%(version)s-lemr.js
+#   contents:
+#     - js/lemr.js
+#   extra:
+#     preload:
+#       - base/main
+
+# lemr-css:
+#   filter: cssrewrite
+#   output: ckanext-lemr/%(version)s-lemr.css
+#   contents:
+#     - css/lemr.css
