@@ -1,0 +1,11 @@
+{% ckan_extends %}
+
+{% block styles %}
+  {{ super() }}
+
+  <!-- Could not get CSS imports working using webassets - including as /public asset instead -->
+  <!-- {% asset 'lemr/lemr-css' %} -->
+  <link rel="stylesheet" href="lemr.css">
+  
+
+{% endblock %}

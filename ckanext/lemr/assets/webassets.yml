@@ -8,7 +8,8 @@
 #       - base/main
 
 # lemr-css:
-#   filter: cssrewrite
-#   output: ckanext-lemr/%(version)s-lemr.css
 #   contents:
 #     - css/lemr.css
+#   output: ckanext-lemr/%(version)s-lemr.css
+#   filter: cssrewrite
+  
